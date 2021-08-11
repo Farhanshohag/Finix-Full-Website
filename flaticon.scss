@@ -1,0 +1,89 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?9c5cc7556ebec91deab79a32eea8ba24") format("truetype"),
+url("./flaticon.woff?9c5cc7556ebec91deab79a32eea8ba24") format("woff"),
+url("./flaticon.woff2?9c5cc7556ebec91deab79a32eea8ba24") format("woff2"),
+url("./flaticon.eot?9c5cc7556ebec91deab79a32eea8ba24#iefix") format("embedded-opentype"),
+url("./flaticon.svg?9c5cc7556ebec91deab79a32eea8ba24#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "guarantee": "\f101",
+    "speed": "\f102",
+    "reliability": "\f103",
+    "user-experience": "\f104",
+    "idea": "\f105",
+    "play-button": "\f106",
+    "talent": "\f107",
+    "car-key": "\f108",
+    "responsibility": "\f109",
+    "agriculture": "\f10a",
+    "personal": "\f10b",
+    "loan": "\f10c",
+    "loan-1": "\f10d",
+    "loan-2": "\f10e",
+    "scholarship": "\f10f",
+    "scholarship-1": "\f110",
+);
+
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-speed:before {
+    content: map-get($flaticon-map, "speed");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-talent:before {
+    content: map-get($flaticon-map, "talent");
+}
+.flaticon-car-key:before {
+    content: map-get($flaticon-map, "car-key");
+}
+.flaticon-responsibility:before {
+    content: map-get($flaticon-map, "responsibility");
+}
+.flaticon-agriculture:before {
+    content: map-get($flaticon-map, "agriculture");
+}
+.flaticon-personal:before {
+    content: map-get($flaticon-map, "personal");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-loan-1:before {
+    content: map-get($flaticon-map, "loan-1");
+}
+.flaticon-loan-2:before {
+    content: map-get($flaticon-map, "loan-2");
+}
+.flaticon-scholarship:before {
+    content: map-get($flaticon-map, "scholarship");
+}
+.flaticon-scholarship-1:before {
+    content: map-get($flaticon-map, "scholarship-1");
+}
