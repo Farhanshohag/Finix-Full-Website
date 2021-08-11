@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+    .applay-now-left-test {
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .about-img {
+        position: relative;
+        height: auto;
+        text-align: center;
+    }
+    .about-img-text {
+        right: 0px;
+        left: 245px;
+    }
+    .main-caption {
+        position: relative;
+        text-align: center;
+        margin-top: 55px;
+    }
+    .calculate-rate {
+        margin-top: 50px;
+    }
+    .footer-widget h3 {
+        font-size: 16px;
+    }
+    .service-tab-content-caption {
+        margin-top: 55px;
+    }
+    .testimonial-img {
+        text-align: center;
+    }
+    .member-img {
+        margin-top: 35px;
+    }
+}
